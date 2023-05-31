@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch-A-Sketch</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1 class="app__header">The Odin Project Etch-A-Sketch</h1>
+    <div class="options__container">
+        <button onClick="pen('black')">Black</button>
+        <button onClick="pen('#fff')">Eraser</button>
+        <button onClick="RGB()">Rainbow</button>
+        <button onClick="resetBoard()">Reset</button>
+        <button onclick="changeBoardSize()">Change Grid Size</button>
+    </div>
+
+    <div class="board__wrapper">
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
